@@ -1,0 +1,8 @@
+SHOW timezone;
+
+SELECT now();
+SELECT now()::date;
+
+SELECT CURRENT_DATE;
+
+SELECT age(CURRENT_DATE,'2005-08-05')
